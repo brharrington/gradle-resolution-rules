@@ -1,4 +1,172 @@
 {
+    "integTestCompile": {
+        "com.netflix.nebula:gradle-resolution-rules-plugin": {
+            "locked": "1.6.5",
+            "requested": "latest.release"
+        },
+        "com.netflix.nebula:nebula-test": {
+            "locked": "4.2.2",
+            "requested": "latest.release"
+        },
+        "org.apache.lucene:lucene-analyzers-common": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-core": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-highlighter": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-queryparser": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.maven.indexer:indexer-core": {
+            "locked": "6.0-SNAPSHOT",
+            "requested": "6.0-SNAPSHOT"
+        },
+        "org.apache.maven.wagon:wagon-http": {
+            "locked": "2.10",
+            "requested": "2.10"
+        },
+        "org.eclipse.sisu:org.eclipse.sisu.plexus": {
+            "locked": "0.3.3",
+            "requested": "0.3.3"
+        },
+        "org.sonatype.sisu:sisu-guice": {
+            "locked": "3.2.6",
+            "requested": "3.2.6"
+        }
+    },
+    "integTestCompileClasspath": {
+        "com.netflix.nebula:gradle-resolution-rules-plugin": {
+            "locked": "1.6.5",
+            "requested": "latest.release"
+        },
+        "com.netflix.nebula:nebula-test": {
+            "locked": "4.2.2",
+            "requested": "latest.release"
+        },
+        "org.apache.lucene:lucene-analyzers-common": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-core": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-highlighter": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-queryparser": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.maven.indexer:indexer-core": {
+            "locked": "6.0-SNAPSHOT",
+            "requested": "6.0-SNAPSHOT"
+        },
+        "org.apache.maven.wagon:wagon-http": {
+            "locked": "2.10",
+            "requested": "2.10"
+        },
+        "org.eclipse.sisu:org.eclipse.sisu.plexus": {
+            "locked": "0.3.3",
+            "requested": "0.3.3"
+        },
+        "org.sonatype.sisu:sisu-guice": {
+            "locked": "3.2.6",
+            "requested": "3.2.6"
+        }
+    },
+    "integTestCompileOnly": {
+        "com.netflix.nebula:gradle-resolution-rules-plugin": {
+            "locked": "1.6.5",
+            "requested": "latest.release"
+        },
+        "com.netflix.nebula:nebula-test": {
+            "locked": "4.2.2",
+            "requested": "latest.release"
+        },
+        "org.apache.lucene:lucene-analyzers-common": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-core": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-highlighter": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-queryparser": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.maven.indexer:indexer-core": {
+            "locked": "6.0-SNAPSHOT",
+            "requested": "6.0-SNAPSHOT"
+        },
+        "org.apache.maven.wagon:wagon-http": {
+            "locked": "2.10",
+            "requested": "2.10"
+        },
+        "org.eclipse.sisu:org.eclipse.sisu.plexus": {
+            "locked": "0.3.3",
+            "requested": "0.3.3"
+        },
+        "org.sonatype.sisu:sisu-guice": {
+            "locked": "3.2.6",
+            "requested": "3.2.6"
+        }
+    },
+    "integTestRuntime": {
+        "com.netflix.nebula:gradle-resolution-rules-plugin": {
+            "locked": "1.6.5",
+            "requested": "latest.release"
+        },
+        "com.netflix.nebula:nebula-test": {
+            "locked": "4.2.2",
+            "requested": "latest.release"
+        },
+        "org.apache.lucene:lucene-analyzers-common": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-core": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-highlighter": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.lucene:lucene-queryparser": {
+            "locked": "4.8.1",
+            "requested": "4.8.1"
+        },
+        "org.apache.maven.indexer:indexer-core": {
+            "locked": "6.0-SNAPSHOT",
+            "requested": "6.0-SNAPSHOT"
+        },
+        "org.apache.maven.wagon:wagon-http": {
+            "locked": "2.10",
+            "requested": "2.10"
+        },
+        "org.eclipse.sisu:org.eclipse.sisu.plexus": {
+            "locked": "0.3.3",
+            "requested": "0.3.3"
+        },
+        "org.sonatype.sisu:sisu-guice": {
+            "locked": "3.2.6",
+            "requested": "3.2.6"
+        }
+    },
     "jacocoAgent": {
         "org.jacoco:org.jacoco.agent": {
             "locked": "0.7.6.201602180812"
@@ -11,12 +179,12 @@
     },
     "testCompile": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "1.6.4",
+            "locked": "1.6.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "4.2.0",
-            "requested": "4.2.0"
+            "locked": "4.2.2",
+            "requested": "latest.release"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -53,12 +221,12 @@
     },
     "testCompileClasspath": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "1.6.4",
+            "locked": "1.6.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "4.2.0",
-            "requested": "4.2.0"
+            "locked": "4.2.2",
+            "requested": "latest.release"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -95,12 +263,12 @@
     },
     "testCompileOnly": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "1.6.4",
+            "locked": "1.6.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "4.2.0",
-            "requested": "4.2.0"
+            "locked": "4.2.2",
+            "requested": "latest.release"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
@@ -137,12 +305,12 @@
     },
     "testRuntime": {
         "com.netflix.nebula:gradle-resolution-rules-plugin": {
-            "locked": "1.6.4",
+            "locked": "1.6.5",
             "requested": "latest.release"
         },
         "com.netflix.nebula:nebula-test": {
-            "locked": "4.2.0",
-            "requested": "4.2.0"
+            "locked": "4.2.2",
+            "requested": "latest.release"
         },
         "org.apache.lucene:lucene-analyzers-common": {
             "locked": "4.8.1",
